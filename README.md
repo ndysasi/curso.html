@@ -6,7 +6,7 @@ de 'elementos' que esta a su vez esta conformado por 'etiquetas' de apertura y c
 >[!TIP] En algunos casos encontraremos los 'elementos' huerfano estos solo estan conformados
 por una sola etiqueta.
 
-## Estructura de un elemento en HTML
+## Tarea Estructura de un elemento en HTML
 
 
 ## Estructura fundmental del documento HTML 
@@ -68,5 +68,182 @@ Contiene información complementaria o secundaria, como publicidad o enlaces rel
 ### `<footer></footer>`
 Representa el pie de página.  
 Generalmente contiene información de contacto, derechos de autor o redes sociales.
+---
+
 
 ---
+
+# Estructura de texto
+
+Las etiquetas de texto permiten organizar y dar formato al contenido de una página web.
+
+---
+
+# Jerarquía de encabezados
+
+Los encabezados permiten organizar la información según su importancia.  
+Existen desde `<h1>` hasta `<h6>`.
+
+| Etiqueta | Función |
+|---|---|
+| `<h1>` | Título principal |
+| `<h2>` | Subtítulo |
+| `<h3>` | Sección |
+| `<h4>` | Subsección |
+| `<h5>` | Detalle |
+| `<h6>` | Nota final |
+
+## Ejemplo
+
+```html
+<h1>Título principal</h1>
+<h2>Subtítulo</h2>
+<h3>Sección</h3>
+<h4>Subsección</h4>
+<h5>Detalle</h5>
+<h6>Nota final</h6>
+```
+
+---
+
+# Párrafos y énfasis
+
+Los párrafos se crean con la etiqueta `<p>`.  
+Para resaltar texto se utilizan:
+- `<strong>` → negrita
+- `<em>` → cursiva
+
+| Etiqueta | Función |
+|---|---|
+| `<p>` | Crear párrafos |
+| `<strong>` | Resaltar texto importante |
+| `<em>` | Dar énfasis al texto |
+
+## Ejemplo
+
+```html
+<p>Este es un párrafo.</p>
+
+<p>
+    Este texto es <strong>importante</strong> y este es
+    <em>enfatizado</em>.
+</p>
+```
+
+---
+
+# Listas
+
+Las listas permiten organizar información.
+
+| Etiqueta | Función |
+|---|---|
+| `<ul>` | Lista desordenada |
+| `<ol>` | Lista ordenada |
+| `<li>` | Elemento de lista |
+
+## Ejemplo
+
+```html
+<ul>
+    <li>Arroz</li>
+    <li>Pollo</li>
+    <li>Verduras</li>
+</ul>
+
+<ol>
+    <li>Lavar ingredientes</li>
+    <li>Cocinar</li>
+    <li>Servir</li>
+</ol>
+```
+
+---
+
+# Citas y referencias
+
+Permiten mostrar citas y autores o referencias.
+
+| Etiqueta | Función |
+|---|---|
+| `<blockquote>` | Mostrar citas |
+| `<cite>` | Mostrar referencias |
+
+## Ejemplo
+
+```html
+<blockquote>
+    "La cocina es el corazón del hogar."
+</blockquote>
+
+<cite>Recetas Peruanas</cite>
+```
+
+---
+
+# Código y texto técnico
+
+Se utilizan para mostrar código HTML y conservar formatos de texto.
+
+| Etiqueta | Función |
+|---|---|
+| `<code>` | Mostrar código |
+| `<pre>` | Mantener espacios y saltos |
+
+## Ejemplo
+
+```html
+<p>Etiqueta de párrafo: <code><p></code></p>
+
+<pre>
+Ingredientes:
+- Arroz
+- Pollo
+- Verduras
+</pre>
+```
+
+---
+
+# Líneas y saltos
+
+Permiten separar contenido y realizar saltos de línea.
+
+| Etiqueta | Función |
+|---|---|
+| `<hr>` | Línea horizontal |
+| `<br>` | Salto de línea |
+
+## Ejemplo
+
+```html
+<hr>
+
+<p>
+Nombre: Nancy <br>
+Curso: HTML <br>
+Tema: Estructura de Texto
+</p>
+```
+
+---
+
+# Ejemplo práctico integrador
+
+## Descripción
+
+En la carpeta raíz se debe crear una carpeta llamada:
+
+```txt
+ejercicio_01
+```
+
+Dentro de esta carpeta se debe crear el archivo:
+
+```txt
+index.html
+```
+
+En este archivo se desarrollará un ejemplo práctico integrador utilizando todas las etiquetas trabajadas anteriormente.
+
+El tema del ejemplo será una receta de cocina.

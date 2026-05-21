@@ -73,7 +73,7 @@ Generalmente contiene información de contacto, derechos de autor o redes social
 
 ---
 
-# Estructura de texto
+# TAREA:Estructura de texto
 
 Las etiquetas de texto permiten organizar y dar formato al contenido de una página web.
 
@@ -245,5 +245,4 @@ index.html
 ```
 
 En este archivo se desarrollará un ejemplo práctico integrador utilizando todas las etiquetas trabajadas anteriormente.
-
 El tema del ejemplo será una receta de cocina.

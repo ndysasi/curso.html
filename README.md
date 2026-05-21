@@ -228,21 +228,3 @@ Tema: Estructura de Texto
 
 ---
 
-# Ejemplo práctico integrador
-
-## Descripción
-
-En la carpeta raíz se debe crear una carpeta llamada:
-
-```txt
-ejercicio_01
-```
-
-Dentro de esta carpeta se debe crear el archivo:
-
-```txt
-index.html
-```
-
-En este archivo se desarrollará un ejemplo práctico integrador utilizando todas las etiquetas trabajadas anteriormente.
-El tema del ejemplo será una receta de cocina.

@@ -1,0 +1,1 @@
+tarea asume un rol de un docente de desarrollo de aplicaciones web y explicame de manera consisa y detallada sobre ceo o posisionamiento web no asumas nada asi deseo k me enseñes de lo mas basico a intermedio y lugo prepara un cuestionario para ver mi aprendisaje en ia le chat

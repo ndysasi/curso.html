@@ -228,3 +228,16 @@ Tema: Estructura de Texto
 
 ---
 
+# CSS (cascading style sheet)
+cascada de hojas de estilo , es el documenmto que nos permite darle estilos a nuestros elemnetos , poscsionar, escalar, formato, color, y transciciones.
+## Como aplicar css a nuestro documeto html
+### 1. en lines
+este manera de aplicar css es haciendo uso de los atributos de nun elemento en este caso en especial usando el atributo 'style'
+```html
+<p style="color:pink:size:23px">este es el texto</p>
+```
+
+-[!TIP] en el caso de los embebidos y los de archivo externo hay que entender sobre selectores: son mnera de como yo identifico un elemento dentro de un documento html, selector por etiqueta, id y clse, en el diseño web se recomienda solo usar los selectores de tipo clase. 
+### 2. embebidos
+este tipo de aplicar estilo nos permite hacer uso de la etiqueta `style` para poder estilar nuestros elemento,por convencio esta etiqueta al ser de configuracion se debe usar en head 
+### 3. archivos externo
